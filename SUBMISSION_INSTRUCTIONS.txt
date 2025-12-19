@@ -1,0 +1,43 @@
+# Final Submission Checklist
+
+## Step 1: VM Actions (Do this first)
+1.  **Boot your VM** (Headless mode).
+2.  **SSH into it** from your Windows Terminal.
+3.  **Run the Setup Script** (if you haven't already):
+    ```bash
+    # Copy scripts to server first if using scp, or create them there
+    chmod +x scripts/manage_coursework.sh
+    sudo ./scripts/manage_coursework.sh
+    # Select Option 1 to Setup
+    ```
+
+4.  **Run the Evidence Commands**:
+    -   Go through `docs/week1.md` to `docs/week7.md`.
+    -   Find every block that says `> **Evidence Required**`.
+    -   Run the command. 
+    -   **TAKE A SCREENSHOT**.
+    -   Replace the `*[Place screenshot here]*` text in the markdown files with your actual image files (e.g., `![Firewall Status](images/firewall.png)`).
+
+## Step 2: GitHub Pages
+1.  **Commit and Push**:
+    ```bash
+    git add .
+    git commit -m "Final submission content"
+    git push origin main
+    ```
+2.  **Verify**: Go to your GitHub Pages URL (e.g., `https://sameercdytharoo.github.io/course_work_Operating-Systems/`) and check that:
+    -   All weeks are clickable.
+    -   All images/screenshots appear correctly.
+
+## Step 3: Video Recording
+1.  Open `docs/video_demo_script.md`.
+2.  Open your Diagram and Terminal.
+3.  Record the video (Max 8 mins).
+4.  Save as `A000027591_OSCoursework_Demonstration.mp4`.
+
+## Step 4: Moodle Upload
+You need to upload **TWO** files:
+1.  `A000027591_GitHub_URL.txt` (This file already exists in your folder, just check the URL inside it).
+2.  `A000027591_OSCoursework_Demonstration.mp4` (Your video file).
+
+**Good luck! You have a distinction-level project here.**

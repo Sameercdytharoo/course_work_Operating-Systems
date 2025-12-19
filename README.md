@@ -1,35 +1,35 @@
-# course_work_Operating-Systems
-# CMPN202 Operating Systems Coursework – Technical Journal
+# Operating Systems Coursework
 
 **Student Name:** Sameer Chaudhary Tharu
+**Student ID:** A000027591
+**Module:** CMPN202 Operating Systems
 
-**Programme:** BSc Computer Science
-**Module:** CMPN202 – Operating Systems
-**Student ID:** A00027591
+## Overview
+This repository contains the technical journal and scripts for my Operating Systems coursework. The project involves configuring, securing, and evaluating a Linux server.
 
----
+## Project Structure
 
-## Project Overview
+### Documentation
+The full technical journal is available in the `docs` folder:
+- [Week 1: System Planning](docs/week1.md)
+- [Week 2: Security Planning](docs/week2.md)
+- [Week 3: Application Selection](docs/week3.md)
+- [Week 4: Initial Configuration](docs/week4.md)
+- [Week 5: Advanced Security](docs/week5.md)
+- [Week 6: Performance Evaluation](docs/week6.md)
+- [Week 7: Security Audit](docs/week7.md)
 
-This technical journal documents the design, configuration, security hardening, and performance evaluation of a headless Linux server administered remotely via SSH. The coursework follows a dual-system architecture consisting of a Linux server and a separate workstation used exclusively for remote administration. Over seven weeks, the system was progressively secured, monitored, tested under different workloads, and critically evaluated to understand operating system behaviour, security trade-offs, and performance constraints.
+### Scripts
+Automated scripts used in this project are in the `scripts` folder:
+- `setup_phase4.sh`: Cloud-init style setup for user and firewall.
+- `security-baseline.sh`: Checks security settings (SSH, UFW).
+- `monitor-server.sh`: Remote monitoring script.
+- `performance_test.sh`: Runs Sysbench and Stress-ng benchmarks.
 
-The work aligns with professional Linux server administration practices used in cloud and DevOps environments and demonstrates command-line proficiency, security awareness, and analytical evaluation of operating system design decisions.
+## System Details
+- **OS:** Ubuntu Server 22.04 LTS
+- **Platform:** VirtualBox
+- **Access:** SSH (Port 2222)
 
----
-
-## System Architecture Summary
-
-* **Server System:** Ubuntu Server 22.04 LTS (headless, no GUI)
-* **Workstation System:** *[Host machine / Linux Desktop VM]* with SSH client
-* **Virtualisation Platform:** VirtualBox
-* **Network Mode:** Host-only / Internal Network
-* **Administration Method:** SSH only (key-based authentication)
-
-## Table of Contents
-* [Week 1 – System Planning and Distribution Selection](week1.md)
-* [Week 2 – Security Planning and Testing Methodology](week2.md)
-* [Week 3 – Application Selection for Performance Testing](week3.md)
-* [Week 4 – Initial System Configuration and Security Implementation](week4.md)
-* [Week 5 – Advanced Security and Monitoring Infrastructure](week5.md)
-* [Week 6 – Performance Evaluation and Analysis](week6.md)
-* [Week 7 – Security Audit and System Evaluation](week7.md)
+## Academic Integrity
+This work is submitted for the Operating Systems module assessment.
