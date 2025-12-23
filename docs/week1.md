@@ -37,7 +37,7 @@ graph TD
 | **Security Updates** | Creating security updates is automated and reliable via `unattended-upgrades`. | Strict guidelines, very stable. | Frequent updates. |
 
 **Decision:**
-I chose **Ubuntu Server 22.04 LTS** because it strikes the best balance between stability and usability. The extensive documentation and community support are ideal for troubleshooting during this learning process. Its native support for `unattended-upgrades` and `AppArmor` (required in Phase 5) makes it a strong candidate for the security requirements of this coursework.
+I chose **Ubuntu Server 22.04 LTS** because it strikes the best balance between stability and usability. The extensive documentation and community support are ideal for troubleshooting during this[...] 
 
 ## 3. Workstation Configuration Decision
 
@@ -63,7 +63,7 @@ I am using my Windows host machine as the workstation.
         - Guest IP: `10.0.2.15` (Default VirtualBox NAT IP)
         - Guest Port: `22`
 
-This configuration allows me to SSH into the server using `ssh -p 2222 user@127.0.0.1` while keeping the server isolated from the external network for direct inbound connections, satisfying the security requirements.
+This configuration allows me to SSH into the server using `ssh -p 2222 user@127.0.0.1` while keeping the server isolated from the external network for direct inbound connections, satisfying the se[...] 
 
 ## 5. System Specifications
 
@@ -96,3 +96,10 @@ ip addr
 ```bash
 lsb_release -a
 ```
+
+
+## 6. Evidence — Command output screenshot
+
+The screenshot below (Image 1) shows the outputs from the commands listed above: `uname -a`, `free -h`, `df -h`, and `ip addr` as captured from the VM. Add the actual screenshot file to `docs/images/` with an appropriate filename (example: `week1-commands.png`) so it renders here.
+
+![Command outputs from the VM showing uname, free, df, ip addr and attempted lsb_release](docs/images/week1-commands.png)
