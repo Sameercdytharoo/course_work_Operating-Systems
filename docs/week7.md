@@ -46,11 +46,16 @@ nmap -Pn -p- 127.0.0.1 -p 2222
 PORT     STATE SERVICE
 2222/tcp open  EtherNetIP-1
 ```
+
+
 *Only the SSH port provided by VirtualBox NAT forwarding is visible.*
 > **Evidence Required**: Run nmap from your workstation (Host):
 > ```bash
 > nmap -Pn -p 2222 127.0.0.1
 > ```
+
+
+<img width="668" height="216" alt="Screenshot from 2025-12-26 16-35-11" src="https://github.com/user-attachments/assets/9b92360e-10fa-4c81-8091-30a12d979017" />
 
 
 ## 3. Access Control Verification
