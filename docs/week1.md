@@ -70,8 +70,7 @@ This configuration allows me to SSH into the server using `ssh -p 2222 user@127.
 *Note: Determining specs requires the VM to be running. Below are the commands I will use to document them once the VM is installed in Week 4.*
 
 ## 6. Evidence — Command output screenshot
-
-![Command outputs from the VM showing uname, free, df, ip addr and attempted lsb_release](images/week1-commands.png)
+<img width="1006" height="675" alt="Screenshot from 2025-12-23 19-02-13" src="https://github.com/user-attachments/assets/fdbec9cb-5c00-49ac-9e5a-6ed266916386" />
 
 ### Kernel Version
 ```bash
