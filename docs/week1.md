@@ -69,8 +69,9 @@ This configuration allows me to SSH into the server using `ssh -p 2222 user@127.
 
 *Note: Determining specs requires the VM to be running. Below are the commands I will use to document them once the VM is installed in Week 4.*
 
-> **Evidence Required**: Run the following commands and capture a screenshot for each.
+## 6. Evidence — Command output screenshot
 
+![Command outputs from the VM showing uname, free, df, ip addr and attempted lsb_release](images/week1-commands.png)
 
 ### Kernel Version
 ```bash
@@ -98,8 +99,4 @@ lsb_release -a
 ```
 
 
-## 6. Evidence — Command output screenshot
 
-The screenshot below (Image 1) shows the outputs from the commands listed above: `uname -a`, `free -h`, `df -h`, and `ip addr` as captured from the VM. Add the actual screenshot file to `docs/images/` with an appropriate filename (example: `week1-commands.png`) so it renders here.
-
-![Command outputs from the VM showing uname, free, df, ip addr and attempted lsb_release](docs/images/week1-commands.png)
