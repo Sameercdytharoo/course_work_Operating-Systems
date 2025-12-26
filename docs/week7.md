@@ -58,7 +58,10 @@ PORT     STATE SERVICE
 <img width="668" height="216" alt="Screenshot from 2025-12-26 16-35-11" src="https://github.com/user-attachments/assets/9b92360e-10fa-4c81-8091-30a12d979017" />
 
 
-<img width="668" height="216" alt="Screenshot from 2025-12-26 16-35-11" src="https://github.com/user-attachments/assets/41057777-403f-4345-b37f-f809cbdb6f34" />
+
+<img width="797" height="423" alt="Screenshot from 2025-12-26 16-40-59" src="https://github.com/user-attachments/assets/9b0e93a8-f9bc-445c-94bb-528f27223132" />
+
+
 
 
 
