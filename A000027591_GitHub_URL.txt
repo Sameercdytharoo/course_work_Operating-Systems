@@ -1,2 +1,2 @@
 Student ID: A000027591
-GitHub URL: https://[YOUR_GITHUB_USERNAME].github.io/course_work_Operating-Systems/docs/
+GitHub URL: https://github.com/Sameercdytharoo/course_work_Operating-Systems.git
