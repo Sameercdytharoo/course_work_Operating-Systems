@@ -21,6 +21,7 @@ sudo usermod -aG sudo admin_user
 > id admin_user
 > grep sudo /etc/group | grep admin_user
 > ```
+<img width="1222" height="115" alt="Screenshot from 2025-12-23 20-03-32" src="https://github.com/user-attachments/assets/4fb4b68a-1fac-47ef-8b8a-318a1d400045" />
 
 
 ## 2. SSH Hardening
