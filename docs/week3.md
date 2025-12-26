@@ -52,3 +52,5 @@ To capture the performance data during these tests, I will use a combination of 
     -   **Memory**: `vmstat 1` to watch swap/cache.
     -   **Network**: `iftop` or `nload` (interactive) or `sar -n DEV 1` for logging.
 3.  **Data Logging**: Output of benchmarks (like `sysbench` result summary) will be saved to text files: `sysbench_cpu_results.txt`.
+   
+<img width="1154" height="531" alt="Screenshot from 2025-12-23 19-58-06" src="https://github.com/user-attachments/assets/ccc87e94-7c79-42d9-bf70-56ed2fcabfad" />
