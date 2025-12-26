@@ -29,11 +29,11 @@ nginx -v
 iperf3 -v
 ```
 
+
 > **Evidence Required**: Take a screenshot of the output of the above verification commands to prove installation execution.
 
-<img width="1199" height="620" alt="Screenshot from 2025-12-23 19-57-42" src="https://github.com/user-attachments/assets/d9f5275b-e12f-4a52-bf38-c92423f89236" />
 
-
+<img width="1217" height="328" alt="Screenshot from 2025-12-23 19-50-10" src="https://github.com/user-attachments/assets/57888da7-f4d2-42a0-be3e-06a3f0bb0194" />
 ## 3. Expected Resource Profiles
 
 | Application | Primary Resource | Expected Behaviour |
