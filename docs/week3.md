@@ -31,6 +31,7 @@ iperf3 -v
 
 > **Evidence Required**: Take a screenshot of the output of the above verification commands to prove installation execution.
 
+<img width="1217" height="328" alt="Screenshot from 2025-12-23 19-50-10" src="https://github.com/user-attachments/assets/61b0b89b-558f-4051-aa82-c507a8e077cb" />
 
 ## 3. Expected Resource Profiles
 
