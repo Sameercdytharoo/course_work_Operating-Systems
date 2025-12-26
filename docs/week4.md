@@ -43,6 +43,14 @@ sudo usermod -aG sudo admin_user
 > ```
 > *Note: Ensure the prompt shows `admin_user@hostname`.*
 
+<img width="1046" height="728" alt="Screenshot from 2025-12-26 16-07-48" src="https://github.com/user-attachments/assets/19b07c63-30e7-41d6-b098-b05b3fe6bd92" />
+
+
+<img width="1043" height="694" alt="Screenshot from 2025-12-26 16-07-27" src="https://github.com/user-attachments/assets/96438583-bab4-42d0-bf51-8b40a943908f" />
+
+
+
+
 
 ## 3. Firewall Configuration (UFW)
 
