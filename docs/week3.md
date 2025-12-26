@@ -54,3 +54,7 @@ To capture the performance data during these tests, I will use a combination of 
 3.  **Data Logging**: Output of benchmarks (like `sysbench` result summary) will be saved to text files: `sysbench_cpu_results.txt`.
    
 <img width="1154" height="531" alt="Screenshot from 2025-12-23 19-58-06" src="https://github.com/user-attachments/assets/ccc87e94-7c79-42d9-bf70-56ed2fcabfad" />
+
+
+<img width="1224" height="165" alt="Screenshot from 2025-12-23 19-59-16" src="https://github.com/user-attachments/assets/9e08e9bc-e492-4659-83c9-b0b6af37a1e6" />
+
