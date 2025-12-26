@@ -13,6 +13,8 @@ The testing will follow a **Remote Monitoring** approach to ensure the observati
 2.  **Data Collection**:
     -   **On-Server**: `vmstat`, `mpstat`, `iostat` (from `sysstat` package) for granular kernel-level metrics.
     -   **Remote**: A custom script (`monitor-server.sh`) running on the workstation will connect via SSH to snapshots of these metrics every 1-5 seconds.
+      <img width="1077" height="518" alt="Screenshot from 2025-12-23 19-40-59" src="https://github.com/user-attachments/assets/3a4beec8-6e0f-47de-9a10-3e3215507e01" />
+
 3.  **Metrics to Track**:
     -   **CPU**: User vs System time, Load Average (1, 5, 15 min).
     -   **Memory**: Used vs Cache/Buffer, Swap usage.
