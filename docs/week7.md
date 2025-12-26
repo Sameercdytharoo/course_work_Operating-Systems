@@ -22,6 +22,10 @@ sudo lynis audit system
 > ```
 
 
+<img width="912" height="643" alt="Screenshot from 2025-12-26 02-29-26" src="https://github.com/user-attachments/assets/05d5adeb-a135-4448-80b6-8751f292a46d" />
+<img width="854" height="562" alt="Screenshot from 2025-12-26 02-30-10" src="https://github.com/user-attachments/assets/6e34c45b-bd55-4c70-83c6-144c83ef31ae" />
+
+
 ## 2. Network Security Assessment (Nmap)
 
 **Objective:** Verify firewall rules from the perspective of the Workstation.
