@@ -23,7 +23,13 @@ sudo lynis audit system
 
 
 <img width="912" height="643" alt="Screenshot from 2025-12-26 02-29-26" src="https://github.com/user-attachments/assets/05d5adeb-a135-4448-80b6-8751f292a46d" />
+
+
 <img width="854" height="562" alt="Screenshot from 2025-12-26 02-30-10" src="https://github.com/user-attachments/assets/6e34c45b-bd55-4c70-83c6-144c83ef31ae" />
+
+
+
+<img width="1222" height="724" alt="Screenshot from 2025-12-26 02-30-36" src="https://github.com/user-attachments/assets/809cbaed-9956-4689-984e-532041e0a13d" />
 
 
 ## 2. Network Security Assessment (Nmap)
